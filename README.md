@@ -1,7 +1,7 @@
 # Project: Stress Prediction Using Machine Learning!
 The main goal of this project is to develop a reliable and efficient machine learning model that can accurately classify Stress level from medical features.
 
-<img src="[demo.png](https://github.com/GauravSahu13/StressPredict_AIML/blob/main/Picture1.png)">
+<img src="Picture1.png">
 <img src="demo.png">
 
 ## Importance of the Project
