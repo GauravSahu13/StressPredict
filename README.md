@@ -2,7 +2,8 @@
 The main goal of this project is to develop a reliable and efficient machine learning model that can accurately classify Stress level from medical features.
 
 <img src="Picture1.png">
-<img src="demo.png">
+
+<img src="Picture2.png">
 
 ## Importance of the Project
 - **Enhancing Healthcare**: By providing accurate and quick disease classification, this project aims to significantly improve patient care and diagnostic accuracy.
@@ -31,34 +32,32 @@ The main goal of this project is to develop a reliable and efficient machine lea
 Clone the repository
 
 ```bash
-https://github.com/GauravSahu13/movieRecommendation
-```
-### STEP 01- Create a conda environment after opening the repository
-
-```bash
-conda create -n movie python=3.7.10 -y
+https://github.com/GauravSahu13/StressPredict_AIML
 ```
 
-```bash
-conda activate movie
-```
-
-
-### STEP 02- install the requirements
+### STEP 01- install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
+### STEP 02- EDA
+```bash
+#run this file to visualizes the distribution of features
 
+EDA_new_raw.ipynb in EDA branch
+```
+### STEP 03- Model Training
 ```bash
 #run this file to generate the models
 
-Movie Recommender System Data Analysis.ipynb
+Run all the models.ipynb files present in Model_Train branch
 ```
+
+<img src="Picture3.png">
 
 Now run,
 ```bash
-streamlit run app.py
+python app.py for frontend
 ```
 
 
